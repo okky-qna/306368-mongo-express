@@ -203,3 +203,5 @@ local.properties
 ### VisualStudioCode ###
 .vscode
 
+### Vagrant ###
+.vagrant/
