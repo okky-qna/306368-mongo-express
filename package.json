@@ -4,14 +4,14 @@
   "description": "Q&A discussion for Q#306368",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"No Test command found\"",
+    "test": "echo \"No Test command found\""
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/andzdroid/mongo-express"
   },
   "engines": {
-    { "node": ">=0.12" }
+    "node": ">=0.12"
   },
   "keywords": [
     "mongodb",
@@ -20,5 +20,13 @@
     "ejs"
   ],
   "author": "rexk <myungsunrex@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.52",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
+  }
 }
